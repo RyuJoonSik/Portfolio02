@@ -68,6 +68,9 @@ body {
   text-indent: 1rem;
 }
 .update__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: content-box;
   background-color: var(--btn-bg-color);
   border: 0;
