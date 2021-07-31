@@ -7,7 +7,10 @@
     <title>실시간 온·습도 로그인</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/main.css" />
   </head>
@@ -17,8 +20,10 @@
       <h1 class="header__title">실시간 온·습도</h1>
       <ul class="user">
         <li><a href="../index.html" class="user__link">로그아웃</a></li>
-        <li><a href="../html/update-form.html" class="user__link">비밀번호 변경</a></li>
-        <li><a href="../index.html" class="user__btn">회원 탈퇴</button></li>
+        <li>
+          <a href="./update-form.html" class="user__link">비밀번호 변경</a>
+        </li>
+        <li><a href="../index.html" class="user__btn">회원 탈퇴</a></li>
       </ul>
     </header>
     <!-- ------------------------------------------- /헤더 ------------------------------------------- -->
@@ -26,12 +31,22 @@
     <main class="main">
       <!-- ------------------------------------------- 로그인 폼 ------------------------------------------- -->
       <article class="canvas">
-        <h2 class="canvas__title">온도 : <strong id="tempVal" class="canvas__value">불러오는 중...</strong></h2>
-        <canvas id="dashboard-temp" class="canvas__content">현재 브라우저는 canvas를 지원하지 않습니다.</canvas>
+        <h2 class="canvas__title">
+          온도 :
+          <strong id="tempVal" class="canvas__value">불러오는 중...</strong>
+        </h2>
+        <canvas id="dashboard-temp" class="canvas__content"
+          >현재 브라우저는 canvas를 지원하지 않습니다.</canvas
+        >
       </article>
       <article class="canvas">
-        <h2 class="canvas__title">습도 : <strong id="humVal" class="canvas__value">불러오는 중...</strong></h2>
-        <canvas id="dashboard-hum" class="canvas__content">현재 브라우저는 canvas를 지원하지 않습니다.</canvas>
+        <h2 class="canvas__title">
+          습도 :
+          <strong id="humVal" class="canvas__value">불러오는 중...</strong>
+        </h2>
+        <canvas id="dashboard-hum" class="canvas__content"
+          >현재 브라우저는 canvas를 지원하지 않습니다.</canvas
+        >
       </article>
       <!-- ------------------------------------------- /로그인 폼 ------------------------------------------- -->
     </main>

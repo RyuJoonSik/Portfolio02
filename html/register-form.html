@@ -7,9 +7,12 @@
     <title>실시간 온·습도 회원가입</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/register-form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/register-form.css" />
   </head>
   <body>
     <!-- ------------------------------------------- 헤더 ------------------------------------------- -->
@@ -20,11 +23,23 @@
     <!-- ------------------------------------------- 메인 ------------------------------------------- -->
     <main class="main">
       <!-- ------------------------------------------- 회원가입 폼 ------------------------------------------- -->
-      <form action="/register" method="post" class="register">
+      <form class="register">
         <h2 class="register__title">회원가입</h2>
-        <input type="text" id="userID" name="userID" placeholder="아이디" class="register__input" />
-        <input type="password" id="userPassword" name="userPassword" placeholder="비밀번호" class="register__input" />
-        <button class="register__btn">회원가입</button>
+        <input
+          type="text"
+          id="userID"
+          name="userID"
+          placeholder="아이디"
+          class="register__input"
+        />
+        <input
+          type="password"
+          id="userPassword"
+          name="userPassword"
+          placeholder="비밀번호"
+          class="register__input"
+        />
+        <a href="../index.html" class="register__btn">회원가입</a>
       </form>
       <!-- ------------------------------------------- /회원가입 폼 ------------------------------------------- -->
     </main>
