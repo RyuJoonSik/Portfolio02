@@ -7,7 +7,10 @@
     <title>실시간 온·습도 로그인</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/login-form.css" />
   </head>
@@ -20,12 +23,24 @@
     <!-- ------------------------------------------- 메인 ------------------------------------------- -->
     <main class="main">
       <!-- ------------------------------------------- 로그인 폼 ------------------------------------------- -->
-      <form action="/login" class="login">
+      <form class="login">
         <h2 class="login__title">로그인</h2>
-        <input type="text" id="userID" name="userID" placeholder="아이디" class="login__input" />
-        <input type="password" id="userPassword" name="userPassword" placeholder="비밀번호" class="login__input" />
-        <button class="login__btn">로그인</button>
-        <a href="/html/register-form.html" class="login__link">회원가입</a>
+        <input
+          type="text"
+          id="userID"
+          name="userID"
+          placeholder="아이디"
+          class="login__input"
+        />
+        <input
+          type="password"
+          id="userPassword"
+          name="userPassword"
+          placeholder="비밀번호"
+          class="login__input"
+        />
+        <a href="./html/main.html" class="login__link">로그인</a>
+        <a href="./html/register-form.html" class="login__link">회원가입</a>
       </form>
       <!-- ------------------------------------------- /로그인 폼 ------------------------------------------- -->
     </main>
